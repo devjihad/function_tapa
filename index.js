@@ -9,3 +9,16 @@ let sum = Math.floor(fahrenheit)
 // let num = Math.floor(Math.random()*100)
 // console.log(num)
 console.log(sum,'F')
+
+// Find the Maximum of Two Numbers
+
+function findMaximum(num1, num2 ){
+    if(num1 > num2){
+        console.log(num1)
+    }
+    else{
+        console.log(num2)
+    }
+}
+
+findMaximum( 50,40)
